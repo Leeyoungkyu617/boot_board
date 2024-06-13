@@ -2,16 +2,15 @@ package bitstudy.board.domain;
 
 import java.time.LocalDateTime;
 
-public class ArticleComment  {
+public class Ex00_1_Article {
     private Long id;
-
-//   연관관계를 위해 매핑한다.
-    private Article article;
+    private String title;
     private String content;
-
+    private String hashtage;
 
     private LocalDateTime createAt;
     private String createBy;
     private LocalDateTime modifiedAt;
     private String modifiedBy;
+
 }
